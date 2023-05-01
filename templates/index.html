@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de reseñas del cliente</title>
+
+    <!--jQuery CDN google-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/static/index.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Portal de reseñas del cliente</h1>
+        <p id="display_date">Fecha : </p>
+    </div>
+
+    <div>
+        <img src="static\assets\product\mobile.png" width="200">
+    </div>
+
+    <div>
+        <textarea id="text" rows="4" maxlength="300" placeholder="Introduce la reseña del cliente"></textarea>
+        <br>
+        <button id="predict_button">Enviar</button>
+    </div>
+
+    <div>
+        <p id="prediction" style="display: none;">Emoción</p>
+        <img src="" id="emo_img_url" style="display: none;" width="80"/>
+    </div>
+    
+
+
+    <!--Archivo JS-->
+    <script src="static\script.js"></script>
+</body>
+</html>
